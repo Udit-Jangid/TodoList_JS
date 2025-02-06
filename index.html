@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/bdb57b346b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="blocks">
+        <div class="block_add">
+            <div class="head">Todo List</div>
+            <div class="block_input">
+                <input class="text_add" placeholder="Add a task" type="text">
+                <input class="btn_add" type="submit" value="Add">
+            </div>
+        </div>
+        <div class="block_todo_list">
+            <div class="block_progressbar">
+                <div class="block_progressbar_left">
+                    <div class="progressbar_head">Keep it up!</div>
+                    <div class="progressbar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="block_progressbar_right">
+                    <p class="progress_count">2/2</p>
+                </div>
+            </div>
+            <div class="todo_list_elem">
+                <!-- <div class="main_todo_div">
+                    <input type="text" class="text_edit" value="udit" readonly>
+                    <button class="btn_edit"><i class="fa-solid fa-pen"></i></button>
+                    <button class="btn_remove"><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <div class="main_todo_div">
+                    <input type="text" class="text_edit" value="rohit" readonly>
+                    <button class="btn_edit"><i class="fa-solid fa-pen"></i></button>
+                    <button class="btn_remove"><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <div class="main_todo_div">
+                    <input type="text" class="text_edit" value="pulkit" readonly>
+                    <button class="btn_edit"><i class="fa-solid fa-pen"></i></button>
+                    <button class="btn_remove"><i class="fa-solid fa-trash"></i></button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+
+</html>
